@@ -24,14 +24,14 @@ SCRIPT_NAME="dbalarm${VER}"
 #
 # ##################################################################################################################################################################
 
-EMAIL="stujare@tsys.com,tasoraclealerts@tsys.com"
-export smtp="smtpeast.tas.corp:25"
+EMAIL=""
+export smtp=""
 export MAIL_LIST="${EMAIL}"
 
-ORACLE_SID=trnrsp1
+ORACLE_SID=$ORACLE_SID
 export ORACLE_SID
 ORACLE_HOME=`cat /etc/oratab|grep ^$ORACLE_SID:|cut -f2 -d':'`
-export ORACLE_PDB_SID=TRNRSPPDB1
+export ORACLE_PDB_SID=$ORACLE_PDB_SID
 export ORACLE_HOME=/opt/oracle/app/orcl/product/19.3.0.1/db
 export ORACLE_PDB_SID
 export ORACLE_HOME
