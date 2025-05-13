@@ -40,7 +40,7 @@ export PATH
 
 GRID_HOME=/opt/oracle/app/product/19.3.0.1/gi
 export GRID_HOME
-export DB_UNQ_NAME=trnrsp
+export DB_UNQ_NAME=$DB_UNQ_NAME
 export ORACLE_BASE=/opt/oracle/app/orcl
 
 export USR_ORA_HOME=/opt/oracle/app/orcl/product/19.3.0.1/db
